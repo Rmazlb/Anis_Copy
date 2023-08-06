@@ -49,7 +49,7 @@ void main(string[] args) {
     serverConfig.hostname = "0.0.0.0";
     serverConfig.port = 6969;
 
-    bool rememberMachine = true;
+    bool rememberMachine = false;
     bool onlyInit = false;
     bool apkDownloadAllowed = true;
     version (Windows) {
